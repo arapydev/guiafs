@@ -4,3 +4,5 @@ from .models import Category, Professional
 # Registramos los modelos para que aparezcan en el panel de admin
 admin.site.register(Category)
 admin.site.register(Professional)
+admin.site.register(TimeSlot)
+admin.site.register(Appointment)
